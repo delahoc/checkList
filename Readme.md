@@ -204,3 +204,40 @@ Sets the background color of the Selector individual elements when they are sele
 the mouse IS hovering over it. Any valid CSS text can be used.
 Default: "#86a6c0"
 
+**Other options**
+
+`values`
+Requires an array containing all of the values for all of the selectable options. Can be
+whatever makes sense for your application, but should not contain any commas or quotes.
+If no `labels` array is passed (see below) these values are also used as the labels on the
+selectable items.
+
+`labels`
+(Optional) An array containing all of the labels for all of the selectable options. Can
+be whatever makes sense for your application. If no labels array is passed, the contents
+of the `values` array is used for item labels. These two arrays should sync up - that is,
+the contents of the first index in this array will be used as the label for the item in
+the first index of the `values` array:
+		
+			labels[0]		will be used as the label for		values[0]
+			labels[1]		will be used as the label for		values[1]
+			labels[2]		will be used as the label for		values[2]
+
+... and so on.
+
+##Methods
+
+There are a small number of methods available to make this plugin useful. Each of these
+can only be used once the CheckList element has been successfully built.
+
+`setByValues()`
+Set given selectors as "selected". Requires an array of values that are exact matches
+for the values (as passed in the `values` array above) of the items you want to make 
+"selected". Useful for pre-selecting a number of items to match a pre-existing set of
+conditions before the user is then able to change them or make new selections.
+
+`getSelectionValues()`
+Get an array of the values of any selected items. Find out what the user selected.
+
+`getSelectionIndices()`
+Get an array of the indexes of any selected items. Find out what the user selected.
