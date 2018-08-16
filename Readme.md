@@ -225,7 +225,7 @@ the first index of the `values` array:
 
 ... and so on.
 
-##Methods
+## Methods
 
 There are a small number of methods available to make this plugin useful. Each of these
 can only be used once the CheckList element has been successfully built.
