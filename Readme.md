@@ -2,6 +2,16 @@
 
 A jQuery plugin to add a simple Checklist UI tool. Handy for multiple-select lists.
 
+The plugin formats a HTML element (usually a div or span) as a clickable button. Once
+clicked, a further element opens beneath the button containing a list of selectable
+items. The user can then select one or more of the selectable items. Moving the mouse
+out of the container element, or clicking on the button again, closes the containing
+element.
+
+This is an example of a simple CheckList button using all default styling:
+
+![alt text](https://github.com/delahoc/checkList/blob/master/images/CheckList_4_button_defaut.jpg "Example CheckList")
+
 ## Usage
 
 CheckList is a jQuery plugin, so is invoked like any other jQuery command.CheckList
@@ -54,3 +64,6 @@ the selectable list. These labels will match one-on-one with the values, so the 
 have the same number of elements. If an array is not provided for `labels`, the contents of the
 `values` array will be used for both the values and the labels.
 
+![alt text](https://github.com/delahoc/checkList/blob/master/images/CheckList_1_button.jpg "Example CheckList Button")
+![alt text](https://github.com/delahoc/checkList/blob/master/images/CheckList_2_open.jpg "Example CheckList")
+![alt text](https://github.com/delahoc/checkList/blob/master/images/CheckList_3_selections.jpg "Example CheckList")
