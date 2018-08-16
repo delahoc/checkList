@@ -64,6 +64,143 @@ the selectable list. These labels will match one-on-one with the values, so the 
 have the same number of elements. If an array is not provided for `labels`, the contents of the
 `values` array will be used for both the values and the labels.
 
+
+Button, now showing the new label:
+
 ![alt text](https://github.com/delahoc/checkList/blob/master/images/CheckList_1_button.jpg "Example CheckList Button")
+
+
+Once clicked, the list element opens below the button showing the list of items the user can now select from:
+
 ![alt text](https://github.com/delahoc/checkList/blob/master/images/CheckList_2_open.jpg "Example CheckList")
+
+
+The user can select one or more items from the list:
+
 ![alt text](https://github.com/delahoc/checkList/blob/master/images/CheckList_3_selections.jpg "Example CheckList")
+
+
+## Options
+
+There is a wide range of options that can be passed to the function.
+
+**Button styling options**
+
+`buttonWidth`
+Sets the width of the button element. Any valid CSS text can be used.
+Default:  "15em"
+
+`buttonBorder`
+Sets the border styling of the button element. Any valid CSS text can be used.
+Default: "1px solid #666"
+
+`buttonPadding`
+Sets the padding styling of the button element. Any valid CSS text can be used.
+Default: "0.3em 1em"
+
+`buttonBorderRadius`
+Sets the border radius styling of the button element. Any valid CSS text can be used.
+Default: "3px"
+
+`buttonLabel`
+Sets the label text displayed in the button.
+Default: "Select ..."
+
+`buttonCleanColor`
+Sets the foreground color of the button when the mouse pointer is NOT hovering over it.
+Any valid CSS text can be used.
+Default: "#666"
+
+`buttonCleanBackground`
+Sets the background color of the button when the mouse pointer is NOT hovering over it.
+Any valid CSS text can be used.
+Default: "#f6f6f6"
+
+`buttonHoverColor`
+Sets the foreground color of the button when the mouse pointer IS hovering over it.
+Any valid CSS text can be used.
+Default: "#000"
+
+`buttonHoverBackground`
+Sets the background color of the button when the mouse pointer IS hovering over it.
+Any valid CSS text can be used.
+Default: "#fffefc"
+
+**Container styling options**
+
+`containerColor`
+Sets the foreground color of the container. Any valid CSS text can be used.
+Default: "#000"
+
+`containerBackground`
+Sets the width of the container element. Any valid CSS text can be used.
+Default: "#fff"
+
+`containerWidth`
+Sets the width of the container element. Any valid CSS text can be used.
+Default: "16.5em"
+
+`containerBorder`
+Sets the border styling of the container element. Any valid CSS text can be used.
+Default: "1px solid #666"
+
+`containerPadding`
+Sets the padding styling of the container element. Any valid CSS text can be used.
+Default: "0.5em 0.2em"
+
+`containerBorderRadius`
+Sets the border radius styling of the container element. Any valid CSS text can be used.
+Default: "3px"
+
+`containerZIndex`
+Sets the Z-Index of the container element. You shouldn't need to worry about this unless
+you have other overlaying elements on the page, such as modal windows.
+Default: "9"
+
+`containerMaxHeight`
+Sets the maximum height of the container element. Any valid CSS text can be used.
+Default: "9em"
+
+**Selector styling options**
+
+`selectorCleanColor`
+Sets the foreground color of the Selector individual elements when the mouse pointer is 
+NOT hovering over it. Any valid CSS text can be used. (Background color is not set, so 
+the container background color shows through.)
+Default: "#555"
+
+`selectorHoverColor`
+Sets the foreground color of the Selector individual elements when the mouse pointer IS 
+hovering over it. Any valid CSS text can be used.
+Default: "#000",
+
+`selectorHoverBackground`
+Sets the background color of the Selector individual elements when the mouse pointer IS 
+hovering over it. Any valid CSS text can be used.
+Default: "#f0f0f0"
+
+`selectorPadding`
+Sets the padding styling of the Selector individual elements. Any valid CSS text can 
+be used.
+Default: "0.2em 0.7em"
+
+`selectorSelectedColor`
+Sets the foreground color of the Selector individual elements when they are selected. 
+Any valid CSS text can be used.
+Default: "#eee"
+
+`selectorSelectedBackground`
+Sets the background color of the Selector individual elements when they are selected. 
+Any valid CSS text can be used.
+Default: "#7090b0"
+
+`selectorSelectedHoverColor`
+Sets the foreground color of the Selector individual elements when they are selected and
+the mouse IS hovering over it. Any valid CSS text can be used.
+Default: "#fff"
+
+`selectorSelectedHoverBackground`
+Sets the background color of the Selector individual elements when they are selected and
+the mouse IS hovering over it. Any valid CSS text can be used.
+Default: "#86a6c0"
+
